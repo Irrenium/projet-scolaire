@@ -9,8 +9,8 @@ const express     = require("express"),
       transport   = node_mailer.createTransport({
           service:"gmail",
           auth:{
-              user: "safidafi10@gmail.com",
-              pass: "safiville10"
+              user: "",
+              pass: ""
           }
       }),
       options = {
